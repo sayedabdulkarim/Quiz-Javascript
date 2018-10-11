@@ -1,5 +1,5 @@
-function Question(texts, choices, answer) {
-  this.texts = texts;
+function Question(text, choices, answer) {
+  this.text = text;
   this.choices = choices;
   this.answer = answer;
 }
